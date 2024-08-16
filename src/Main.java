@@ -1,14 +1,15 @@
+import java.math.BigInteger;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Solution10 solution = new Solution10();
-        int[] prices = {3,0,1,1,1,1,1,1,1,1,5};
-        System.out.println(solution.hIndex2(prices));
+        Solution11 solution = new Solution11();
+        int[] prices = {-1,2,3,5};
+        int[] ans = solution.productExceptSelf(prices);
+        System.out.println(Arrays.toString(ans));
     }
 }
 
-//3,0,1,1,1,1,1,1,1,1,5
-//
-//1,9,0,1,0,1
-//0 1 2 3 4 5
+//["RandomizedSet","insert","insert","remove","insert","remove","getRandom"]
+//        [[],[0],[1],[0],[2],[1],[]]
