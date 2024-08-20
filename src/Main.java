@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Solution11 solution = new Solution11();
-        int[] prices = {-1,2,3,5};
-        int[] ans = solution.productExceptSelf(prices);
-        System.out.println(Arrays.toString(ans));
+        Candy solution = new Candy();
+        int[] prices = {1,3,4,5,2};
+        int ans = solution.candy(prices);
+        System.out.println(ans);
     }
 }
 
